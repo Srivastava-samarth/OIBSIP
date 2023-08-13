@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    display: grid;
+    height: 100%;
+    place-items:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #1abc9c;
+}
+
+.container{
+    width: 400px;
+    background-color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    heigth:800px;
+}
+
+.container h2{
+    display: flex;
+    line-height: 80px;
+    background: #16a085;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+
+form{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.details{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.details label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.details input{
+    width:100%;
+    padding-left: 10px;
+    height: 30px;
+    border: 2px solid rgb(134, 133, 133);
+    border-radius: 5px;
+    display: block;
+}
+
+.details.success input{
+    border-color: #2ecc71;
+}
+
+.details.error input{
+    border-color: #e74c3c;
+}
+
+.details i{
+    position: absolute;
+    right: 8px;
+    top: 32px;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.details small{
+    color: #e74c3c;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
+
+.details.error small{
+    visibility: visible;
+}
+
+.details.success i.bxs-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+.details.error i.bxs-error-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.btn{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button{
+    font-size: 30px;
+    width: 70%;
+    font-weight: 600;
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.button:hover{
+    border: 2px solid black;
+}

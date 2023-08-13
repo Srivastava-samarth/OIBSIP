@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Registration Form</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="details">
+                <label>Username</label>
+                <input type="text" name="username" id="username" autocomplete="off" placeholder="Enter your Username">
+                <i class='bx bxs-check-circle'></i>
+                <i class='bx bxs-error-circle' ></i>
+                <small>Error message</small>
+            </div>
+            <div class="details">
+                <label>Email</label>
+                <input type="email" name="email" id="email" autocomplete="off" placeholder="Enter your Email I'd">
+                <i class='bx bxs-check-circle'></i>
+                <i class='bx bxs-error-circle' ></i>
+                <small>Error message</small>
+            </div>
+            <div class="details">
+                <label>Phone Number</label>
+                <input type="number" name="phonenumber" id="phonenumber" autocomplete="off" placeholder="Enter your Phone Number">
+                <i class='bx bxs-check-circle'></i>
+                <i class='bx bxs-error-circle' ></i>
+                <small>Error message</small>
+            </div>
+            <div class="details">
+                <label>Password</label>
+                <input type="password" name="password" id="password" autocomplete="off" placeholder="Enter your Password">
+                <i class='bx bxs-check-circle'></i>
+                <i class='bx bxs-error-circle' ></i>
+                <small>Error message</small>
+            </div>
+            <div class="details">
+                <label>Confirm Password</label>
+                <input type="password" name="cpassword" id="cpassword" autocomplete="off" placeholder="Enter you Password again">
+                <i class='bx bxs-check-circle'></i>
+                <i class='bx bxs-error-circle' ></i>
+                <small>Error message</small>
+            </div>
+            <div class="btn">
+                <input type="submit" value="Register" class="button">   
+             </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
